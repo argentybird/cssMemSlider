@@ -170,4 +170,17 @@ span {
     #slider-wrapper label {
         justify-content: center;
     }
+    #slider-wrapper:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
 }
